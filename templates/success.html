@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome - Industrial Project 2024</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <h2>Welcome, {{ username }}!</h2>
+    <p>Your address: {{ address }}</p>
+    <a href="{{ url_for('manage_users') }}">Manage Users</a> |
+    <a href="{{ url_for('logout') }}">Logout</a>
+</body>
+</html>
