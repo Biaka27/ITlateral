@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 from flask import Flask, render_template, request, redirect, url_for, flash, session, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -109,7 +109,7 @@ def delete_user(id):
 
 if __name__ == '__main__':
     app.run(debug=True)
-=======
+
 from flask import Flask, render_template, request, redirect, url_for, flash, session, jsonify
 from flask_sqlalchemy import SQLAlchemy
 from werkzeug.security import generate_password_hash, check_password_hash
@@ -220,4 +220,3 @@ def delete_user(id):
 
 if __name__ == '__main__':
     app.run(debug=True)
->>>>>>> 0973c81536327ed3c3d9274895f20005129b1fca
